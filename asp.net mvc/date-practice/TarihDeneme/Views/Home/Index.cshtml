@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.TextBox("BaslangicTarihi", "{0:yyyy-MM-ddThh:mm}", new { id = "BaslangicTarihi", type = "date", @class = "form-control form-control-sm", @Value = @DateTime.Now.ToString("yyyy-MM-dd") })
+@Html.TextBox("BitisTarihi", "{0:yyyy-MM-ddThh:mm}", new { id = "BitisTarihi", type = "date", @class = "form-control form-control-sm", @Value = @DateTime.Now.ToString("yyyy-MM-dd") })
