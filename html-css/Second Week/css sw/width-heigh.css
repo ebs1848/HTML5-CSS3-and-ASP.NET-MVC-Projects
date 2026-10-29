@@ -1,0 +1,10 @@
+#width-height{
+    border: 5px solid orangered;
+    padding: 5px 10px;
+    margin: 15px 25px;
+    max-width: 1000px;
+    min-width: none;
+    max-height: 250px;
+    min-height: 10px;
+    outline-style: 10px solid black;
+}

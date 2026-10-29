@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>W1L7</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form name="frml" id="frml" method="post" action="#">
+        <p><input type="url" name="url" id="url" placeholder="enter the url address"/></p>
+        <p>Email Address:</p>
+        <hr/>
+        <p><input type="email" name="email" id="email" placeholder="enter the email address"/></p>
+        <p>Username</p>
+        <hr/>
+        <p><input type="text" name="username" id="username" placeholder="enter the username"/></p>
+        <P>Password</P>
+        <hr/>
+        <p><input type="password" name="pass" id="pass" maxlength="10" placeholder="enter the password"/></p>
+        <label>
+            <p><input type="radio" name="gender" id="gender" value="0"/>male</p>
+            <p><input type="radio" name="gender" id="gender" value="1"/>female</p>
+        </label>
+        <p><textarea name="text" id="text" rows="15" placeholder="make an explain for why do you want go to the this site"></textarea></p>
+        <select>
+            <option value="-1" selected>chose</option>
+            <option value="0">html</option>
+            <option value="1">css</option>
+            <option value="2">java script</option>
+        </select>
+        <hr/>
+        <input type="submit" value="Send"/>
+        <input type="button" value="Buton"/>
+        <input type="reset" value="Clear All"/>
+    </form>
+</body>
+</html>

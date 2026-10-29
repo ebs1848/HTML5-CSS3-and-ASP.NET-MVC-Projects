@@ -1,0 +1,18 @@
+#special-font{
+    color:orangered;
+}
+
+.md-1024 { font-size: 1024px!important; }
+
+a:link{
+    color: royalblue;
+    text-decoration: none;
+    border: 5px solid green;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+}
+

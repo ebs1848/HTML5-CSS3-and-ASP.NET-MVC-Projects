@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+}
+#fp{
+    border:5px solid black;
+    background-color: blue;
+    color:white;
+    padding: 30px;
+    margin: 50px;
+}
+.op{
+    border:5px solid black;
+    background-color: turquoise;
+    color: red;
+    padding: 15px;
+}
+

@@ -1,0 +1,35 @@
+
+table{
+    width: 90%;
+    border: 0;
+}
+
+::placeholder {
+    color:black;
+}
+
+
+p {
+    text-align:center;
+    font-size: smaller;
+}
+ 
+#fbox{
+    border: 5px solid #7EE5DA;
+    background-color: #7EE5DA;
+}
+
+#sbox{
+    border: 5px solid #7EE5DA;
+    background-color: #7EE5DA;
+}
+
+#tbox{
+    border: 5px solid #62B3AA;
+    background-color: #62B3AA;
+}
+
+#mbox{
+    border:5px solid #EEEEEE;
+    background-color: #EEEEEE;
+}

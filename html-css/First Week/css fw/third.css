@@ -1,0 +1,27 @@
+.style-border{
+    border-style: solid;
+    padding: 15px;
+    border-width: 25px 30px 35px 40px; 
+    /*
+    border-top-width: 25px;
+    border-right-width: 30px;
+    border-bottom-width: 35px;
+    border-left-width: 40px;
+    */
+    border-color: red rebeccapurple turquoise green;
+    /*
+    border-top-color: red;
+    border-right-color: rebeccapurple;
+    border-bottom-color: turquoise;
+    border-left-color: green;
+    */
+    border-radius: 10px;
+    text-indent: 12.5px;
+    text-align: justify;
+} 
+
+h4{
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+
+.special{
+  padding: 15px;
+  border: 3px solid red;
+  width: 50%;
+  margin-left: 150px;  
+}
+.sub-special{
+    border: inherit;
+    padding: 150px;
+}
